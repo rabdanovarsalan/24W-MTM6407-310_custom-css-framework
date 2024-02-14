@@ -1,0 +1,9 @@
+@use 'reset';
+@use 'variables';
+@use 'typography';
+@use 'utilities';
+@use 'base';
+
+html, body {
+    overflow-x: hidden;
+}

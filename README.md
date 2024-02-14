@@ -1,2 +1,5 @@
 # 24W-MTM6407-310_custom-css-framework
-Custom CSS Framework Group Assignment
+## CSS Framework Name - TBD
+### CSS Framework Description - TBD
+
+Done by: Arsalan Rabdanov, Jana Tahir, Saransh Kalsi, Sukhmanpreet Singh

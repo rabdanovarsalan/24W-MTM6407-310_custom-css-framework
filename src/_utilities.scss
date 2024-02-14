@@ -1,0 +1,89 @@
+@use 'variables';
+@use 'typography';
+
+// UTILITY STUFF (CUSTOM MARGINS, PADDINGS, CONTAINERS, ETC.)
+
+// Margins
+.m-0 {margin: variables.$m-0;}
+.m-1 {margin: variables.$m-1;}
+.m-2 {margin: variables.$m-2;}
+.m-3 {margin: variables.$m-3;}
+.m-4 {margin: variables.$m-4;}
+.m-5 {margin: variables.$m-5;}
+
+.mt-0 {margin-top: variables.$m-0;}
+.mt-1 {margin-top: variables.$m-1;}
+.mt-2 {margin-top: variables.$m-2;}
+.mt-3 {margin-top: variables.$m-3;}
+.mt-4 {margin-top: variables.$m-4;}
+.mt-5 {margin-top: variables.$m-5;}
+
+.mr-0 {margin-right: variables.$m-0;}
+.mr-1 {margin-right: variables.$m-1;}
+.mr-2 {margin-right: variables.$m-2;}
+.mr-3 {margin-right: variables.$m-3;}
+.mr-4 {margin-right: variables.$m-4;}
+.mr-5 {margin-right: variables.$m-5;}
+
+.mb-0 {margin-bottom: variables.$m-0;}
+.mb-1 {margin-bottom: variables.$m-1;}
+.mb-2 {margin-bottom: variables.$m-2;}
+.mb-3 {margin-bottom: variables.$m-3;}
+.mb-4 {margin-bottom: variables.$m-4;}
+.mb-5 {margin-bottom: variables.$m-5;}
+
+.ml-0 {margin-left: variables.$m-0;}
+.ml-1 {margin-left: variables.$m-1;}
+.ml-2 {margin-left: variables.$m-2;}
+.ml-3 {margin-left: variables.$m-3;}
+.ml-4 {margin-left: variables.$m-4;}
+.ml-5 {margin-left: variables.$m-5;}
+
+
+// Paddings
+.p-0 {padding: variables.$m-0;}
+.p-1 {padding: variables.$m-1;}
+.p-2 {padding: variables.$m-2;}
+.p-3 {padding: variables.$m-3;}
+.p-4 {padding: variables.$m-4;}
+.p-5 {padding: variables.$m-5;}
+
+.pt-0 {padding-top: variables.$m-0;}
+.pt-1 {padding-top: variables.$m-1;}
+.pt-2 {padding-top: variables.$m-2;}
+.pt-3 {padding-top: variables.$m-3;}
+.pt-4 {padding-top: variables.$m-4;}
+.pt-5 {padding-top: variables.$m-5;}
+
+.pr-0 {padding-right: variables.$m-0;}
+.pr-1 {padding-right: variables.$m-1;}
+.pr-2 {padding-right: variables.$m-2;}
+.pr-3 {padding-right: variables.$m-3;}
+.pr-4 {padding-right: variables.$m-4;}
+.pr-5 {padding-right: variables.$m-5;}
+
+.pb-0 {padding-bottom: variables.$m-0;}
+.pb-1 {padding-bottom: variables.$m-1;}
+.pb-2 {padding-bottom: variables.$m-2;}
+.pb-3 {padding-bottom: variables.$m-3;}
+.pb-4 {padding-bottom: variables.$m-4;}
+.pb-5 {padding-bottom: variables.$m-5;}
+
+.pl-0 {padding-left: variables.$m-0;}
+.pl-1 {padding-left: variables.$m-1;}
+.pl-2 {padding-left: variables.$m-2;}
+.pl-3 {padding-left: variables.$m-3;}
+.pl-4 {padding-left: variables.$m-4;}
+.pl-5 {padding-left: variables.$m-5;}
+
+// Text Alignment
+.text-start {text-align: start;}
+.text-center {text-align: center;}
+.text-end {text-align: end;}
+
+// Containers
+.container-fluid {
+    margin: variables.$m-1 auto;
+    padding: variables.$p-1;
+    width: calc(100% - variables.$p-1 * 2);
+}

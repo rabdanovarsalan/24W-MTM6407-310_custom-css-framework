@@ -1,0 +1,42 @@
+@use 'variables';
+@use 'typography';
+
+// STYLES FOR STANDARD HTML ELEMENTS
+
+// Body
+body {
+    font-family: variables.$font-stack;
+    font-size: typography.$font-size-md;
+}
+
+
+// Headings
+h1 {
+    font-size: typography.$font-size-xxl;
+    font-weight: typography.$font-weight-bold;
+}
+
+h2 {
+    font-size: typography.$font-size-xl;
+    font-weight: typography.$font-weight-bold;
+}
+
+h3 {
+    font-size: typography.$font-size-xl;
+    font-weight: typography.$font-weight-regular;
+}
+
+h4 {
+    font-size: typography.$font-size-lg;
+    font-weight: typography.$font-weight-bold;
+}
+
+h5 {
+    font-size: typography.$font-size-lg;
+    font-weight: typography.$font-weight-regular;
+}
+
+h6 {
+    font-size: typography.$font-size-md;
+    font-weight: typography.$font-weight-bold;
+}
