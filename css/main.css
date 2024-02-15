@@ -374,8 +374,17 @@ h6 {
   font-weight: 700;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
 html, body {
   overflow-x: hidden;
+}
+
+body {
+  line-height: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

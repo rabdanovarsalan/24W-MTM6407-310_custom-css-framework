@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 $font-stack: "Roboto", sans-serif;
 
+// Color Palette
+$blue:       #0074D9;
+$purple:     #8E44AD;
+$pink:       #FF69B4;
+$red:        #FF4136;
+$orange:     #FF851B;
+$yellow:     #FFDC00;
+$green:      #2ECC40;
+$turquoise:  #1ABC9C;
+$white:      #FFFFFF;
+$gray-100:   #F8F9FA;
+$gray-200:   #E9ECEF;
+$gray-300:   #DEE2E6;
+$gray-400:   #CED4DA;
+$gray-500:   #ADb5bd;
+$gray-600:   #6C757D;
+$gray-700:   #495057;
+$gray-800:   #343A40;
+$gray-900:   #212529;
+$black:      #000000;
+
+
 // Margins
 $m-0: 0;
 $m-1: 1.00rem;
@@ -17,3 +39,4 @@ $p-2: 2.00rem;
 $p-3: 3.00rem;
 $p-4: 4.00rem;
 $p-5: 5.00rem;
+
