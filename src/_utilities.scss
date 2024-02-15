@@ -83,7 +83,7 @@
 
 // Containers
 .container-fluid {
-    margin: variables.$m-1 auto;
+    margin: variables.$p-0 auto;
     padding: variables.$p-1;
-    width: calc(100% - variables.$p-1 * 2);
+    width: 100%;
 }

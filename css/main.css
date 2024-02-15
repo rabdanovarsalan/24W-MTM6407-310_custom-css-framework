@@ -334,9 +334,9 @@ meter {
 }
 
 .container-fluid {
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 1rem;
-  width: calc(100% - 2rem);
+  width: 100%;
 }
 
 body {
