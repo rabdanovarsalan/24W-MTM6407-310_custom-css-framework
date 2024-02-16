@@ -405,12 +405,3 @@ html, body {
 body {
   line-height: 1.5rem;
 }
-
-code {
-  padding: 1rem;
-  display: block;
-  width: calc(100% - 2rem);
-  border: 1px solid gray;
-}
-
-/*# sourceMappingURL=main.css.map */

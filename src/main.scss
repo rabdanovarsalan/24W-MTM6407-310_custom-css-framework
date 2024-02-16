@@ -11,10 +11,3 @@ html, body {
 body {
     line-height: 1.50rem;
 }
-
-code {
-    padding: variables.$p-1;
-    display: block;
-    width: calc(100% - variables.$p-1 * 2);
-    border: 1px solid gray;
-}
