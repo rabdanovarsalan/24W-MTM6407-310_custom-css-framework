@@ -1,0 +1,16 @@
+{
+  "name": "24w-mtm6407-310_custom-css-framework",
+  "version": "1.0.0",
+  "description": "Custom CSS Framework. Done for the MTM6407 Course.\r ## Authors:\r Arsalan Rabdanov, Jana Tahir, Saransh Kalsi, Sukhmanpreet Singh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.71.0"
+  }
+}
