@@ -1,2 +1,4 @@
-# 24W-MTM6407-310_custom-css-framework
-Custom CSS Framework Group Assignment
+# Glovestrap Framework
+Custom CSS Framework. Done for the MTM6407 Course.
+## Authors:
+Arsalan Rabdanov, Jana Tahir, Saransh Kalsi, Sukhmanpreet Singh

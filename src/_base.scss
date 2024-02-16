@@ -1,0 +1,65 @@
+@use 'variables';
+@use 'typography';
+
+// STYLES FOR STANDARD HTML ELEMENTS
+
+// Body
+body {
+    font-family: variables.$font-stack;
+    font-size: typography.$font-size-md;
+}
+
+
+// Headings
+h1 {
+    margin: variables.$m-1 0;
+    font-size: typography.$font-size-xl;
+    font-weight: typography.$font-weight-700;
+    line-height: typography.$line-height;
+}
+
+h2 {
+    margin: variables.$m-1 0;
+    font-size: typography.$font-size-xl;
+    font-weight: typography.$font-weight-300;
+    line-height: typography.$line-height;
+}
+
+h3 {
+    margin: variables.$m-1 0;
+    font-size: typography.$font-size-lg;
+    font-weight: typography.$font-weight-700;
+    line-height: typography.$line-height;
+}
+
+h4 {
+    margin: variables.$m-1 0;
+    font-size: typography.$font-size-lg;
+    font-weight: typography.$font-weight-300;
+    line-height: typography.$line-height;
+}
+
+h5 {
+    margin: variables.$m-0 0;
+    font-size: typography.$font-size-md;
+    font-weight: typography.$font-weight-700;
+    line-height: typography.$line-height;
+    text-transform: uppercase;
+}
+
+h6 {
+    margin: variables.$m-0 0;
+    font-size: typography.$font-size-md;
+    font-weight: typography.$font-weight-400;
+    line-height: typography.$line-height;
+    text-transform: uppercase;
+}
+
+p {
+    margin: variables.$m-1 0;
+    line-height: typography.$line-height;
+}
+a {
+    display: inline-block;
+    text-decoration: none; 
+}
