@@ -1,5 +1,6 @@
 @use 'variables';
 @use 'typography';
+@use 'mixins';
 
 // UTILITY STUFF (CUSTOM MARGINS, PADDINGS, CONTAINERS, ETC.)
 
@@ -86,4 +87,45 @@
     margin: variables.$p-0 auto;
     padding: variables.$p-1;
     width: calc(100% - variables.$p-1 * 2);
+}
+
+// Buttons
+.btn {
+    // margin: variables.$m-1;
+    padding: variables.$p-1 variables.$p-2;
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.blue {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$blue);
+}
+
+.purple {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$purple);
+}
+
+.pink {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$pink);
+}
+
+.red {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$red);
+}
+
+.orange {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$orange);
+}
+
+.yellow {
+    @include mixins.button-color(variables.$black, variables.$white, variables.$yellow);
+}
+
+.green {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$green);
+}
+
+.turquoise {
+    @include mixins.button-color(variables.$white, variables.$white, variables.$turquoise);
 }
