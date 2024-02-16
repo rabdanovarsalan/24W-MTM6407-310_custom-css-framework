@@ -85,5 +85,5 @@
 .container-fluid {
     margin: variables.$p-0 auto;
     padding: variables.$p-1;
-    width: 100%;
+    width: calc(100% - variables.$p-1 * 2);
 }
