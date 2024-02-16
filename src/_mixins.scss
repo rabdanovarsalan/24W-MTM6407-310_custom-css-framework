@@ -1,0 +1,16 @@
+// Mixins
+
+// Button Color
+@mixin button-color($color, $color2, $background-color) {
+    color: $color;
+    background-color: $background-color;
+
+    &:hover, &:focus {
+        color: $color2;
+        background-color: darken($background-color, 10%);
+    }
+
+    &:active {
+        background-color: darken($background-color, 20%);
+    }
+}
