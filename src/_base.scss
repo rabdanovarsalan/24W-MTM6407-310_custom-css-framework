@@ -59,7 +59,13 @@ p {
     margin: variables.$m-1 0;
     line-height: typography.$line-height;
 }
+
 a {
     display: inline-block;
     text-decoration: none; 
+}
+
+button {
+    border-radius: 0.5rem;
+    transition: variables.$transition-time ease;
 }
